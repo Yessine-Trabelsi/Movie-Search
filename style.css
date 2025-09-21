@@ -16,5 +16,6 @@
     align-items: center ;
 }
 body{
-    background-color: beige ;
+    background-color: beige !important;
+
 }
