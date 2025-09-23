@@ -4,7 +4,7 @@ const result = document.querySelector("#movie");
 
 const key = "c8f08da7";
 /* https://www.omdbapi.com/?apikey=c8f08da7&t=Interstellar*/
-searchBtn.addEventListener("click", async (e) => {
+searchBtn.addEventListener("click", e => {
   e.preventDefault();
   const movieName = input.value.trim();
   if (!movieName) return;
@@ -38,3 +38,4 @@ searchBtn.addEventListener("click", async (e) => {
       result.textContent = "Network error";
     });
 });
+
